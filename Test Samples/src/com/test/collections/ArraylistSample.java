@@ -19,6 +19,9 @@ public class ArraylistSample {
 		method1();
 	}
 	
+	/**
+	 * Static method to enter the values and print the same.
+	 */
 	public static void method1() {
 		List<String> data = new ArrayList<>();
 		data.add("A");
@@ -31,6 +34,10 @@ public class ArraylistSample {
 		}
 	}
 	
+	/**
+	 * New method with argument as the original arraylist and add further new values
+	 * @param data1 - original arraylist
+	 */
 	public static void method2(List<String> data1) {
 		data1.add("C");
 		
